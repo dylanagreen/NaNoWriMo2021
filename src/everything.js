@@ -5,7 +5,7 @@ for (let i = 1; i < 31; i++) {
     // Using AJAX to get the text from the day.
   $.ajax({
     async:false,
-    url: "../days_txt/day" + String(i) + ".txt",
+    url: "days_txt/day" + String(i) + ".txt",
     dataType: 'text',
     success: function(data)
     {
