@@ -1,7 +1,7 @@
 
 let colors = ["#000080", "#000000"];
 
-for (let i = 1; i < 31; i++) {
+for (let i = 1; i < 36; i++) {
     // Using AJAX to get the text from the day.
   $.ajax({
     async:false,
